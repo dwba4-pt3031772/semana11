@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web: Cliente - Semana 06</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="header">
+        <ul class="menuL">
+            <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+            <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+            <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+            <div class="dropdown">
+                <button class="dropdown-btn">CURSOS</button>
+                <div class="dropdown-content">
+                    <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+                    <a href="#">Engenharia de Produção</a>
+                </div>
+            </div>
+
+            <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+        </ul>
+
+        <div class="menuR">
+            <ul class="menuL"><li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li></ul>
+        </div>
+    </nav>
+
+    <figure class="logo">
+        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/Logo.jpg" alt="Logo do IFSP">
+    </figure>
+    
+    <!-- Vai mudar a partir daqui -->
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="card-body text-center ">
+            <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/ifsp.png" alt="Logo IFSP" class="mb-4" width="80">
+            <h1 class="h2 mb-3 font-weight-normal">Faça login</h1>
+
+            <form>
+                <div class="form-group">
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                </div>
+
+                <div class="form-group form-check d-flex align-items-center justify-content-center">
+                    <input type="checkbox" class="form-check-input me-2" id="remember-me">
+                    <label class="form-check-label mb-0" for="remember-me">Lembrar de mim</label>
+                </div>
+
+                <a href="#" class="d-block mt-3">Esqueci a senha</a>
+                <button class="btn btn-primary btn-block" type="submit">Login</button>
+            </form>
+            
+            <div class="mt-4 text-muted">© 2020</div>
+        </div>
+  </div>
+
+    <object width="100%" height="140px" data="extras.html"></object>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web: Cliente - Semana 06</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="header">
+        <ul class="menuL">
+            <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+            <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+            <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+            <div class="dropdown">
+                <button class="dropdown-btn">CURSOS</button>
+                <div class="dropdown-content">
+                    <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+                    <a href="#">Engenharia de Produção</a>
+                </div>
+            </div>
+
+            <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+        </ul>
+
+        <div class="menuR">
+            <ul class="menuL"><li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li></ul>
+        </div>
+    </nav>
+
+    <figure class="logo">
+        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/Logo.jpg" alt="Logo do IFSP">
+    </figure>
+
+    <div class="main-content">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/A.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/B.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/C.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Conheça os desafios de inovação</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po?si=B9vG7i6mBRXKr0qm" title="Desafio de Inovação: webinar com executivos da empresa Sem Parar e representantes da Inova IFSP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        
+        <div class="grid-container">
+            <figure class="grid-item">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/eleicoes.jpg" alt="Eleições" class="grid-image">
+                <figcaption class="grid-caption">
+                    <h4>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</h4>
+                    <p>Todos os alunos e servidores podem votar; acesse aqui a cabine de votação online do seu câmpus</p>
+                </figcaption>
+            </figure>
+
+            <figure class="grid-item">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/snct.jpg" alt="Eleições" class="grid-image">
+                <figcaption class="grid-caption">
+                    <h4>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</h4>
+                    <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+                </figcaption>
+            </figure>
+
+            <figure class="grid-item">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/residencia.png" alt="Residência" class="grid-image">
+                <figcaption class="grid-caption">
+                    <h4>IFSP oferece bolsa aos voluntários da Residência Pedagógica</h4>
+                    <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+                </figcaption>
+            </figure>
+
+            <figure class="grid-item">
+                <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/maratona.jpeg" alt="Maratona" class="grid-image">
+                <figcaption class="grid-caption">
+                    <h4>Inscrições abertas para a III Maratona InterIF</h4>
+                    <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <h2>Conheça os desafios de inovação</h2>
+        <iframe width="840" height="470" src="https://www.youtube.com/embed/5g5LQe3m8Po?si=QGPdR4HAHdMxy95q" title="Desafio de Inovação: webinar com executivos da empresa Sem Parar e representantes da Inova IFSP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <object width="100%" height="140px" data="extras.html"></object>
+    <script src="script.js"></script>
+</body>
+</html>

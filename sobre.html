@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web: Cliente - Semana 06</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./sobre.js" type="text/babel"></script>
+</head>
+<body>
+    <nav class="header">
+        <ul class="menuL">
+            <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+            <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+            <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+            <div class="dropdown">
+                <button class="dropdown-btn">CURSOS</button>
+                <div class="dropdown-content">
+                    <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+                    <a href="#">Engenharia de Produção</a>
+                </div>
+            </div>
+
+            <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+        </ul>
+
+        <div class="menuR">
+            <ul class="menuL"><li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li></ul>
+        </div>
+    </nav>
+
+    <figure class="logo">
+        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/Logo.jpg" alt="Logo do IFSP">
+    </figure>
+
+    <div id="react-root"></div>
+
+    <object width="100%" height="140px" data="extras.html"></object>
+</body>
+</html>

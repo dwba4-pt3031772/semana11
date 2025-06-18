@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web: Cliente - Semana 06</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="header">
+        <ul class="menuL">
+            <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+            <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+            <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+            <div class="dropdown">
+                <button class="dropdown-btn">CURSOS</button>
+                <div class="dropdown-content">
+                    <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+                    <a href="#">Engenharia de Produção</a>
+                </div>
+            </div>
+
+            <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+        </ul>
+
+        <div class="menuR">
+            <ul class="menuL"><li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li></ul>
+        </div>
+    </nav>
+
+    <figure class="logo">
+        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/Logo.jpg" alt="Logo do IFSP">
+    </figure>
+
+    <h1>Inscreva-se</h1>
+
+    <form>
+        <fieldset>
+            Evento
+            <select name="evento" required>
+                <option value="" disabled selected>-- Selecione --</option>
+                <option value="Voe sem asas">Voe sem asas</option>
+                <option value="Festa junina">Festa junina</option>
+                <option value="Semana de tecnologia">Semana de tecnologia</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Acesso</legend><br>
+            Usuario <input name="usuario" required><br><br>
+            Senha <input name="senha1" type="password" required><br><br>
+            Confirme a Senha <input name="senha2" type="password" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            Nome Completo <input name="nome" required><br><br>
+            E-mail <input name="email" type="email" required><br><br>
+            Celular (99) 99999-9999<input name="celular" type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required><br><br>
+            <fieldset class="sexo">
+                <legend>Sexo</legend>
+                Masculino <input type= "radio" value="masculino" name="sexo">
+                Feminino <input type= "radio" value="feminino" name="sexo"><br>
+            </fieldset>
+            <br>Data de Nascimento <input type="date" required><br><br>
+            Cor Favorita <input type="color"><br><br>
+            Perfil no Github <input type="url" required><br><br>
+        </fieldset>
+        
+        <br>
+        <input type="submit" value="Inscrever">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <object width="100%" height="140px" data="extras.html"></object>
+</body>
+</html>
